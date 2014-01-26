@@ -387,8 +387,83 @@
 	width: 100px;
 	background-color: f2f0ec;
 }
-
-
+/*QUESTION 12*/
+.intro12 {
+	font-size: 28px;
+}
+.thebox {
+	width: 580px;
+	height: 600px;
+	margin-top: 60px;
+	background-color: rgb(99, 199, 222);
+}
+.dots1, .dots2, .dots3, .dots4, .dots5, .dots6, .dots7, .dots8, .dots9,
+.dots10, .dots11, .dots12, .dots13, .dots14, .dots15{
+	height: 20px;
+	width: 20px;
+	border-radius: 50%;
+	background-color: rgb(155, 155, 155);
+}
+.thebox:hover .dots15 {
+	margin-left: 560px;
+	transition: ease 1s;
+}
+.thebox:hover .dots14 {
+	margin-left: 520px;
+	transition: ease 1s;
+}
+.thebox:hover .dots13 {
+	margin-left: 480px;
+	transition: ease 1s;
+}
+.thebox:hover .dots12 {
+	margin-left: 440px;
+	transition: ease 1s;
+}
+.thebox:hover .dots11 {
+	margin-left: 400px;
+	transition: ease 1s;
+}
+.thebox:hover .dots10 {
+	margin-left: 360px;
+	transition: ease 1s;
+}
+.thebox:hover .dots9 {
+	margin-left: 320px;
+	transition: ease 1s;
+}
+.thebox:hover .dots8 {
+	margin-left: 300px;
+	transition: ease 1s;
+}
+.thebox:hover .dots7 {
+	margin-left: 240px;
+	transition: ease 1s;
+}
+.thebox:hover .dots6 {
+	margin-left: 200px;
+	transition: ease 1s;
+}
+.thebox:hover .dots5 {
+	margin-left: 160px;
+	transition: ease 1s;
+}
+.thebox:hover .dots4 {
+	margin-left: 120px;
+	transition: ease 1s;
+}
+.thebox:hover .dots3 {
+	margin-left: 80px;
+	transition: ease 1s;
+}
+.thebox:hover .dots2 {
+	margin-left: 40px;
+	transition: ease 1s;
+}
+.thebox:hover .dots1 {
+	margin-left: 0px;
+	transition: ease 1s;
+}
 
 
 
