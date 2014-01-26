@@ -537,17 +537,82 @@
 	padding-top: 110px;
 	background-color: rgb(215, 75, 75);
 }
-
-
-
-
-
-
-
-
-
-	
-
+/*QUESTION 14*/
+.intro14 {
+	font-size: 28px;
+}
+.leaf {
+	height: 200px;
+	width: 200px;
+	margin-top: 40px;
+	margin-left: 40px;
+	border-bottom-right-radius: 50%;
+	border-top-left-radius: 50%;
+	background-color: rgb(3, 32, 47);
+}
+.inner {
+	height: 150px;
+	width: 150px;
+	border-bottom-right-radius: 50%;
+	border-top-left-radius: 50%;
+	background-color: rgb(221, 72, 20);
+	margin-left: 25px;
+	margin-top: 25px;
+	position: absolute;
+}
+.middle	{
+	height: 100px;
+	width: 100px;
+	border-bottom-right-radius: 50%;
+    border-top-left-radius: 50%;
+	background-color: rgb(165, 172, 175);
+	margin-left: 25px;
+	margin-top: 25px;
+}
+.leaf:hover {
+	border-bottom-right-radius: 0;
+	border-top-left-radius: 0;
+	border-bottom-left-radius: 50%;
+	border-top-right-radius: 50%;
+	transition: ease 1.5s;
+	-webkit-transform: rotate(-45deg);
+}
+.leaf:hover .inner {
+	border-top-right-radius: 20px;
+	border-bottom-left-radius: 20px;
+}
+/*QUESTION 15*/
+.intro15 {
+	font-size: 28px;
+}
+.flat {
+	margin-top: 60px;
+	margin-left: 40px;
+	width: 200px;
+	height: 20px;
+	background-color: black;
+}
+.creature {
+	height: 0;
+	width: 0;
+	background-color: white;
+}
+.flat:hover {
+	height: 80px;
+	width: 80px;
+	background-color: rgb(89, 111, 127);
+	border-bottom-right-radius: 130px;
+	border-top-left-radius: 130px;
+	transition: ease 1s;
+}
+.flat:hover .creature {
+	height: 80px;
+	width: 80px;
+	border-bottom-left-radius: 130px;
+	border-top-right-radius: 130px;
+	background-color: rgb(249, 158, 17);
+	transition: ease 1s;
+}
 
 
 
