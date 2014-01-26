@@ -464,6 +464,81 @@
 	margin-left: 0px;
 	transition: ease 1s;
 }
+/*QUESTION 13*/
+.intro13 {
+	font-size: 28px;
+	margin-top: 40px;
+}
+.face {
+	margin-top: 40px;
+	height: 200px;
+	width: 400px;
+	position: relative;
+}
+.dot1, .dot2, .dot3, .dot4, .dot5, .dot6,
+.dot7, .dot8, .dot9, .dot10, .dot11, .dot12, .dot13 {
+	width: 20px;
+	height: 20px;
+	border-radius: 50%;
+	background-color: black;
+	display: inline-block;	
+	transition: ease 2s;	
+}
+
+.face:hover .dot7 {
+	padding-top: 16px;
+	background-color: rgb(175, 129, 201);
+}
+.face:hover .dot6 {
+	padding-top: 32px;
+	background-color: rgb(248, 154, 126);
+}
+.face:hover .dot8 {
+	padding-top: 32px;
+	background-color: rgb(242, 202, 133);
+}
+.face:hover .dot5 {
+	padding-top: 48px;
+	background-color: rgb(84, 209, 241);
+}
+.face:hover .dot9 {
+	padding-top: 48px;
+	background-color: rgb(124, 113, 173);
+}
+.face:hover .dot4 {
+	padding-top: 64px;
+	background-color: rgb(68, 85, 105);
+}
+.face:hover .dot10 {
+	padding-top: 64px;
+	background-color: rgb(127, 108, 138);
+}
+.face:hover .dot3 {
+	padding-top: 80px;
+	background-color: rgb(175, 177, 112);
+}
+.face:hover .dot11 {
+	padding-top: 80px;
+	background-color: rgb(226, 206, 179);
+}
+.face:hover .dot2 {
+	padding-top: 96px;
+	background-color: rgb(98, 134, 141);
+}
+.face:hover .dot12 {
+	padding-top: 96px;
+	background-color: rgb(215, 139, 125);
+}
+.face:hover .dot1 {
+	padding-top: 110px;
+	background-color: rgb(249, 243, 227);
+}
+.face:hover .dot13 {
+	padding-top: 110px;
+	background-color: rgb(215, 75, 75);
+}
+
+
 
 
 
