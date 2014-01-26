@@ -124,6 +124,11 @@
 	width: 730px;
 }
 
+/*QUESTION 4*/
+.intro4 {
+	font-size: 28px;
+}
+
 .four {
 	margin-top: 40px;
 	margin-left: 40px;
@@ -147,14 +152,22 @@
 	border-left: 25px solid black;
 }
 
+/*QUESTION 5*/
+.intro5 {
+	font-size: 28px;
+}
+
 .circle {
 	width: 80px;
 	height: 80px;
 	border-radius: 50%;
 	background-color: black;
 	margin-left: 20px;
+	margin-top: 40px;
 	transition: all 1s steps(5, end) .2s ;
 }
+
+/*QUESTION 6*/
 
 .circle:hover {
 	width: 200px;
@@ -196,6 +209,11 @@
 	background-color: black;
 	border: 1px solid white;	
 }
+/*QUESTION 7*/
+
+.intro7 {
+	font-size: 28px;
+}
 
 .sun {
 	width: 200px;
@@ -215,11 +233,16 @@
 	background-color: yellow;
 }
 
+/*QUESTION 8*/
+
+.intro8 {
+	font-size: 28px;
+}
+
 .fun-box {
 	position: relative;
 	height: 344px;
 	width: 800px;
-	border: 4px solid black;
 	margin-left: 100px;
 }
 
@@ -299,6 +322,71 @@
 	background-color: yellow;
 }
 
+/*QUESTION 9*/
+
+.intro9	{
+	font-size: 28px;
+}
+
+.transform {
+	margin-top: 40px;
+	height: 180px;
+	width: 180px;
+	background-color: red;
+	margin-left: 60px;
+}
+
+.transform:hover {
+	border-top-left-radius: 50%;
+	border-bottom-right-radius: 50%;
+	transition: ease 1s;
+}
+
+/*QUESTION 10*/
+
+.intro10 {
+	font-size: 28px;
+}
+
+.cannon {
+	margin-top: 60px;
+	width: 800px;
+	height: 50px;
+	background-color: yellow;
+}
+.ball {
+	height: 45px;
+	width: 45px;
+	border-radius: 50%;
+	background-color: black;
+	margin-top: -46px;
+}
+.ball:hover {
+	margin-left: 755px;
+	transition: ease 2s;
+}
+/*QUESTION 11*/
+.intro11 {
+	font-size: 28px;
+}
+.button {
+	margin-top: 40px;
+	margin-left: 40px;
+	width: 200px;
+	height: 50px;
+	background-color: #636362;
+	border-radius: 20px;
+	box-shadow: 2px 2px 3px black;
+}
+.button:hover {
+	width: 400px;
+}
+
+.hidden-box:hover {
+	height: 50px;
+	width: 100px;
+	background-color: f2f0ec;
+}
 
 
 
